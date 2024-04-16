@@ -23,7 +23,7 @@ class ToDoApp:
         self.task_entry = tk.Entry(self.root, font=("Helvetica", 12))
         self.task_entry.pack(side=tk.BOTTOM, fill=tk.BOTH)
 
-        buttons = [("Добавить задачу", self.add_task), ("Удалить задачу", self.delete_task), ("Завершить задачу", self.complete_task)]
+        buttons = [("Добавить задачу", self.add_task), ("Удалить задачу", self.delete_task), ("Завершитьmmmgit задачу", self.complete_task)]
         for text, command in buttons:
             button = tk.Button(self.root, text=text, command=command)
             button.pack(side=tk.BOTTOM)
